@@ -1,0 +1,21 @@
+# Clones de código empresa (nunca publicar)
+/vendor/
+/tmp/
+
+# Secretos y entorno local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Word temporales
+~$*.docx
+*.tmp
